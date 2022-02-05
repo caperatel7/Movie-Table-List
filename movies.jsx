@@ -32,7 +32,7 @@ class  Movies extends Component {
             </thead>
             <tbody>
                 { this.state.movies.map(movie => (
-                <tr key={movie._id}>
+                <tr key={movie._id}> 
                     <td>{movie.title}</td>
                     <td>{movie.genre.name}</td>
                     <td>{movie.numberInStock}</td>
